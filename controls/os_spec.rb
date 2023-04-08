@@ -59,7 +59,7 @@ cpuvulndir = '/sys/devices/system/cpu/vulnerabilities/'
 
 mount_exec_blocklist = input(
   'mount_exec_blocklist',
-  value: ['/boot', '/dev', '/dev/shm', '/tmp', '/var/log', '/var/log/audit', '/var/tmp'],
+  value: ['/boot','/dev/shm', '/tmp', '/var/log', '/var/log/audit', '/var/tmp'],
   description: 'List of mountspoints where \'noexec\' mount option shoud be set'
 )
 
